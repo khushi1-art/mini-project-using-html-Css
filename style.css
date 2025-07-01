@@ -1,1 +1,110 @@
 
+*{
+    margin: 0;
+    padding: 0;
+}
+.mainbox{
+    background-image: url(camera.jpg);
+    height: 100vh;
+    background-size: cover;
+ 
+}
+.side-bar .btn-two {
+   position: absolute;
+   line-height: 10px;
+   left: 90%;
+   cursor: pointer;
+   font-size: 25px;
+   top: 2px;
+  color: grey;
+}
+.logo{
+   
+    padding: 0px 10px;
+    left:0px;
+   border: 2px solid rgba(107, 102, 102, 0.1);
+   box-shadow: 0px 0px 5px;
+  
+   font-size: large;
+   
+}
+.side-bar{
+    height: 100vh;
+    width: 300px;
+    border: 2px solid rgba(107, 102, 102, 0.1);
+    box-shadow: 5px 5px 15px;
+    line-height: 30px;
+    padding-left: 10px;
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    left: -330px;
+}
+ul li  {
+    
+    
+     border: 2px solid rgba(107, 102, 102, 0.2);
+      box-shadow: 0px 0px 2px; 
+      color: white;
+      list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.btn-two i:hover{
+    font-size: 30px;
+    transition: 0.3s linear;
+}
+.btn-one:hover{
+  font-size: 30px;
+    transition: 0.3s linear;
+}
+
+#check:checked ~.side-bar{
+    left: 0;
+
+}
+.socialmedia ul i:hover{
+    font-size: larger;
+    cursor: pointer;
+
+}
+.side-bar .socialmedia {
+    color: aliceblue;
+    opacity: 0.5;
+    position: absolute;
+    left: 25%;
+    bottom: 15px;
+}
+.side-bar .socialmedia i{
+    
+    padding: 0 5px;
+}
+.menu ul  :hover{
+    font-family: sans-serif;
+    box-shadow: 2px 2px 15px blue;
+    padding: 0px 20px;
+}
+#check{
+    display: none;
+}
+#check:checked~.side-bar{
+    left: 0px;
+    
+}
+#check:checked ~.btn-one{
+    opacity: 0;
+}
+ .btn-one{
+    color: gray;
+    position: absolute;
+    left: 10px;
+    top:10px;
+    font-size: 20px;
+}
+.menu ul li i{
+    color: lightblue;
+}
